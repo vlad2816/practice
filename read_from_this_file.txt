@@ -1,0 +1,2 @@
+Hello, this is a txt file for show how to read the data from this file.
+This is a method only to read the data from the same path not a different path
