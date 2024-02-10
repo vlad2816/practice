@@ -1,10 +1,13 @@
 class Car:
 
     def __init__(self):
-        self.cmc = 0
-        self.doors = 4
-        self.tank_capacity = 0
-        self.passangers = []
+        self.__cmc = 0
+        self.__doors = 4
+        self.__tank_capacity = 0
+        self.__passengers = []
+
+    def get_doors(self):
+        return self.__doors
 
 class Person:
     def __init__(self):
@@ -16,6 +19,4 @@ vlad = Person()
 
 vw = Car()
 ford = Car()
-
-print(f'capacitate cilindrica: {vw.cmc}')
-print(f'Nr usi la ford: {ford.doors}')
+print(vw.get_doors())
