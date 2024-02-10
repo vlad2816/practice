@@ -8,6 +8,9 @@ class Car:
 
     def get_doors(self):
         return self.__doors
+    
+    def get_cmc(self):
+        return self.__cmc
 
 class Person:
     def __init__(self):
